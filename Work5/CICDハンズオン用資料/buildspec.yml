@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws deploy push --application-name work5-app --s3-location s3://work5-code/artifact.zip --source src
+      - aws deploy push --application-name work5-app --s3-location s3://work5-code/artifact.zip --source Work5/CICDハンズオン用資料/src
 artifacts:
   files:
     - "**/*"
