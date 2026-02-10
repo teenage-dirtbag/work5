@@ -7,4 +7,4 @@ phases:
 artifacts:
   files:
     - "**/*"
-  base-directory: src
+  base-directory: Work5/CICDハンズオン用資料/src
